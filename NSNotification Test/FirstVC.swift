@@ -7,19 +7,21 @@
 //
 
 import UIKit
+
 class FirstVC: UIViewController {
 
   @IBOutlet weak var FirstVCLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    NotificationCenter.default.addObserver(self, selector: #selector(doSomethingAfterNotified), name: NSNotification.Name(rawValue: myNotificationKey), object: nil)
-    
-    
+    NotificationCenter.default.addObserver(self,
+                                           selector: #selector(doSomethingAfterNotified),
+                                           name: NSNotification.Name(rawValue: myNotificationKey),
+                                           object: nil)
   }
 
   func doSomethingAfterNotified() {
     print("I've been notified")
     FirstVCLabel.text = "Damn, I feel your spark 😱"
-    
   }    
 }
