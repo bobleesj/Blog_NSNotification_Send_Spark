@@ -2,7 +2,7 @@
 ![alt text](https://cdn-images-1.medium.com/max/2000/1*6mzUKOf8wLPBHM_W6NlVTA.png "Cover Image")
 
 ##What you will be learning##
-- [x] Send Data between view controller  
+- [x] Notify Other ViewControllers (x Data) 
 
 ###Introduction###
 Now, let’s talk about how and why we use NSNotification to pass data and communicate/notify between classes and structs. By the way, NSNotification, unlike its name, has nothing to do with Push Notification — rookie mistake 101 (me).
