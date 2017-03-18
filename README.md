@@ -1,7 +1,7 @@
 # Learn How to Send Spark with NSNotification
 ![alt text](https://cdn-images-1.medium.com/max/2000/1*6mzUKOf8wLPBHM_W6NlVTA.png "Cover Image")
 
-## What you will be learning##
+## What you will be learning
 - [x] Notify Other ViewControllers (x Data) 
 
 ### Introduction
